@@ -236,7 +236,6 @@ main {
   font-weight: 700;
   font-size: 0.88rem;
 }
-/* About Page */
 
 .about-page {
   max-width: 1380px;
@@ -325,7 +324,6 @@ main {
   display: block;
 }
 
-/* Responsive */
 
 @media (max-width: 900px) {
   .about-split {
@@ -359,7 +357,6 @@ main {
     height: 240px;
   }
 }
-/* Contact Page */
 
 .contact-section {
   min-height: 72vh;
@@ -452,7 +449,6 @@ main {
   opacity: 0.92;
 }
 
-/* Footer */
 
 .site-footer {
   width: 90%;
@@ -484,8 +480,6 @@ main {
   color: var(--muted);
   font-size: 0.92rem;
 }
-
-/* Responsive */
 
 @media (max-width: 900px) {
   .hero {

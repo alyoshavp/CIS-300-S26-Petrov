@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Alyosha Petrov</title>
+  <meta name="description" content="Contact page for Alyosha Petrov's portfolio.">
+  <title>Alyosha Petrov | Contact</title>
   <link rel="stylesheet" href="style.css">
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7VSQM3P6F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7VSQM3P6F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-X7VSQM3P6F');
-</script>
-
-
+    gtag('config', 'G-X7VSQM3P6F');
+  </script>
 </head>
+
 <body>
   <header class="site-header">
     <a href="index.html" class="logo">Alyosha<span>.dev</span></a>
@@ -36,32 +36,37 @@
   <main>
     <section class="contact-section">
       <div class="contact-box">
-        <h1>CONTACT ME</h1>
+        <h1>Contact Me</h1>
 
-        <form class="contact-form">
+        <p class="email-line">
+          Prefer email?
+          <a href="mailto:alyoshapetrov@icloud.com">Email Me</a>
+        </p>
+
+        <form class="contact-form" action="#" method="post">
           <div class="form-row">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
           </div>
 
           <div class="form-row">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
           </div>
 
           <div class="form-row">
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" placeholder="Opportunities" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
           </div>
 
           <div class="form-row">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Hi" required></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
           </div>
 
           <div class="form-buttons">
-            <button type="button">Submit</button>
-            <button type="reset">Reset Form</button>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
           </div>
         </form>
       </div>
@@ -70,10 +75,12 @@
 
   <footer class="site-footer">
     <div class="footer-links">
+      <a href="mailto:alyoshapetrov@icloud.com">Email</a>
       <a href="https://github.com/alyoshavp" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/alexey-alyosha-petrov/" target="_blank">LinkedIn</a>
     </div>
-    <p>&copy; 2026 Alyosha Petrov</p>
+
+    <p>Copyright © 2026 Alyosha Petrov</p>
   </footer>
 </body>
 </html>
